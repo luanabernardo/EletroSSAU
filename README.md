@@ -1,2 +1,2 @@
 # EletroSSAU
-Site de vendas de Eletrônicos
+Vendas de Eletrônicos
