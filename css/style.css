@@ -1,0 +1,73 @@
+*{
+    margin:0;
+  }
+  body{
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #fafbfc;
+    
+  }
+  header {
+    background-color: #00082e;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-family: "Acme", sans-serif;
+  }
+  
+  main{
+    padding: 30px 30px;
+  }
+  
+  .card{
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+  }
+  .lineInput{
+    display: grid;
+    margin-bottom: 10px;
+  }
+  
+  input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    outline: 0;
+  }
+  
+  button{
+    border: 0;
+    padding: 10px;
+    outline: 0;
+    background-color: #00082e;
+    color: white;
+    border-radius: 3px ;
+    font-weight: bold;
+    
+  }
+  button:hover{
+    background-color: #001640;
+  }
+  table{
+    border-collapse: collapse;
+    border: 1pix solid #ccc;
+    width: 100%;
+  }
+  
+  table th{
+    background-color: #00082e;
+    color: white;
+  }
+  table th,td{
+    padding: 1px 5px;
+    text-align: left;
+  }
+  
+  table td img{
+    width:22px;
+  }
+  .center{
+    text-align: center;
+  }

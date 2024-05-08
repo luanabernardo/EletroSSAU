@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>EletroSSAU</title>
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+  <script src="js/script.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1>EletroSSAU</h1>
+  </header>
+  <main>
+    <div class="titulo">
+      <h2>Produtos</h2>
+      <span>Eletrônicos</span>
+    </div>
+    
+    <div class="card">
+      <div class="lineInput">
+        <label>Produto:</label>
+        <input type="text" id="produto" placeholder="Nome do Produto">
+      </div>
+      
+      <div class="lineInput">
+        <label>Valor:</label>
+        <input type="text" id="preco" placeholder="Valor do Produto">
+      </div>
+      
+      <div class="lineInput">
+        <label>Marca:</label>
+        <input type="text" id="marca" placeholder="Marca do Produto">
+      </div>
+      
+      <div class="lineInput">
+        <label>Modelo:</label>
+        <input type="text" id="modelo" placeholder="Modelo do Produto">
+      </div>
+      
+      <div class="lineInput">
+        <label>Descrição:</label>
+        <input type="text" id="descricaoProduto" placeholder="Descrição do Produto">
+      </div>
+      
+    <button onclick="produto.salvar()">Salvar</button>
+    <button onclick="produto.cancelar()">Cancelar</button>
+  </div>
+
+  <div class="conteudo">
+    <table border="1">
+      <thead>
+        <th class="center">ID</th>
+        <th>Produto</th>
+        <th>Valor</th>
+        <th>Marca</th>
+        <th>Modelo</th>
+        <th>Descrição</th>
+        <th class="center">Ações</th>
+      </thead>
+      <tbody id="tbody">
+        
+      </tbody>
+    </table>
+  </div>
+  </main>
+  
+</body>
+
+</html>
